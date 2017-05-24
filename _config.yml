@@ -1,5 +1,5 @@
-title:        API Evangelist 101
-description:  A network of research sites dedicated to the technology, business, and politics of APIs.
+title:        Test Data From Google Spreadsheet
+description:  Working on scripts for helping me generate and integrate with test data created in Google Spreadsheets, then published to Github as YAML for use in variety of APIs.
 url:          https://101.apievangelist.com
 
 version:      1.1.1
@@ -17,7 +17,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md",".
 
 logo : https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-101.png
 
-github_user: api-evangelist
-github_repo: 101
+github_user: adopta-agency
+github_repo: test-data-from-google-spreadsheets
 
 spreadsheetkey: 1b_VQ44hGwiul7GnhQbI2zDQThk3_5p1qG-0dl9o5sr4
