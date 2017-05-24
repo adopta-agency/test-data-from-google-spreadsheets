@@ -1,0 +1,96 @@
+- name: AAA Treatment
+  alternate_name: AAA Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Alameda Treament
+  alternate_name: Alameda Treament
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Apple Treatment
+  alternate_name: Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Big Apple Treatment
+  alternate_name: Big Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Fake Data Treatment
+  alternate_name: Fake Data Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Great Treatment
+  alternate_name: Great Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: AAA Treatment
+  alternate_name: AAA Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Alameda Treament
+  alternate_name: Alameda Treament
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Apple Treatment
+  alternate_name: Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Big Apple Treatment
+  alternate_name: Big Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Fake Data Treatment
+  alternate_name: Fake Data Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'
+- name: Great Treatment
+  alternate_name: Great Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  transportation: Bus
+  latitude: '33.985047'
+  longitude: '-118.469483'

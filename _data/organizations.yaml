@@ -1,0 +1,132 @@
+- name: AAA Treatment
+  alternate_name: AAA Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '10'
+  legal_status: LLC
+- name: Alameda Treament
+  alternate_name: Alameda Treament
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '15'
+  legal_status: Partnership
+- name: Apple Treatment
+  alternate_name: Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '20'
+  legal_status: Partnership
+- name: Big Apple Treatment
+  alternate_name: Big Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '5'
+  legal_status: LLC
+- name: Fake Data Treatment
+  alternate_name: Fake Data Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '3'
+  legal_status: LLC
+- name: Great Treatment
+  alternate_name: Great Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '5'
+  legal_status: Partnership
+- name: AAA Treatment
+  alternate_name: AAA Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '10'
+  legal_status: LLC
+- name: Alameda Treament
+  alternate_name: Alameda Treament
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '15'
+  legal_status: Partnership
+- name: Apple Treatment
+  alternate_name: Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '20'
+  legal_status: Partnership
+- name: Big Apple Treatment
+  alternate_name: Big Apple Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '5'
+  legal_status: LLC
+- name: Fake Data Treatment
+  alternate_name: Fake Data Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '3'
+  legal_status: LLC
+- name: Great Treatment
+  alternate_name: Great Treatment
+  description: >-
+    This is a simple description for AAA treatment, allowing us to fill up some
+    space, and not speak in latin.
+  email: info@example.com
+  url: 'http://example.com'
+  tax_status: Corporation
+  tax_id: A2334234
+  year_incorporated: '5'
+  legal_status: Partnership
