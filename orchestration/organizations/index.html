@@ -34,13 +34,13 @@ title: Update Partners Spreadsheet
     $(document).ready( function() {
       Tabletop.init( { key: key,
                        callback: showInfo,
-                       wanted: [ "partners" ],
+                       wanted: [ "organizations" ],
                        debug: true } )
     })
 
     function showInfo(data, tabletop) {
 
-      $partners = new Array();
+      $organizations = new Array();
 
       $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
 
@@ -48,11 +48,11 @@ title: Update Partners Spreadsheet
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
       });
 
-      $product = tabletop.sheets("partners").all();
+      $product = tabletop.sheets("organizations").all();
 
       $count = 0;
       $total_count = $product.length;
-      $.each( tabletop.sheets("partners").all(), function(i, service) {
+      $.each( tabletop.sheets("organizations").all(), function(i, service) {
 
           // Make this dynamic from schema
           $view_sort = service['view_sort'];
@@ -80,14 +80,14 @@ title: Update Partners Spreadsheet
           $p['year_incorporated'] = $year_incorporated;
           $p['legal_status'] = $legal_status;
 
-          $partners.push($p);
+          $organizations.push($p);
           $count++;
           if($count==$total_count)
             {
-            //$partners_json = JSON.stringify($partners);
-            //$partners_json = JSON.stringify(JSON.parse($partners_json),null,2);
+            //$organizations_json = JSON.stringify($organizations);
+            //$organizations_json = JSON.stringify(JSON.parse($organizations_json),null,2);
 
-            $yaml_dump = jsyaml.dump($partners);
+            $yaml_dump = jsyaml.dump($organizations);
 
             document.getElementById('source').value = $yaml_dump;
 
@@ -101,7 +101,7 @@ title: Update Partners Spreadsheet
 
               $.each(tree, function(treeKey, treeValue) {
 
-                $writepath = '_data/partners.yaml';
+                $writepath = '_data/organizations.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
               //  console.log($path + ' == ' + $writepath);

@@ -34,7 +34,7 @@ title: Update Projects Spreadsheet
     $(document).ready( function() {
       Tabletop.init( { key: key,
                        callback: showInfo,
-                       wanted: [ "projects" ],
+                       wanted: [ "locations" ],
                        debug: true } )
     })
 
@@ -48,11 +48,11 @@ title: Update Projects Spreadsheet
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
       });
 
-      $product = tabletop.sheets("projects").all();
+      $product = tabletop.sheets("locations").all();
 
       $count = 0;
       $total_count = $product.length;
-      $.each( tabletop.sheets("projects").all(), function(i, service) {
+      $.each( tabletop.sheets("locations").all(), function(i, service) {
 
           // Make this dynamic from schema
           $name = service['name'];
@@ -96,7 +96,7 @@ title: Update Projects Spreadsheet
 
               $.each(tree, function(treeKey, treeValue) {
 
-                $writepath = '_data/projects.yaml';
+                $writepath = '_data/locations.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
               //  console.log($path + ' == ' + $writepath);
